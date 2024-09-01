@@ -832,6 +832,7 @@
                             class="btn1 contole link1 animated fadeInBottom slow">DAFTAR</a></div>
                 </div>
                 <h1 class="text-center animated heartBeat slow infinite">🔥 <?php echo $BRANDS ?> 🔥</h1>
+                <h2 class"text-center animated heartBeat slow infinite">DDOS NYA YANG KERAS DONG BOS </h2>
                 <span class="text-center">©2024 - <a href="#"><strong><?php echo $BRANDS ?></strong></a> - ได้รับการตรวจสอบแล้ว </span>
             </div> 
         </main>

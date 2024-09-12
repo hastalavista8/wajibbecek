@@ -63,7 +63,7 @@
         <meta property="og:url" content="##">
         <meta property="og:site_name" content="<?php echo $BRANDS ?>">
         <meta property="og:author" content="<?php echo $BRANDS ?>">
-        <meta property="og:image" content="https://diatasnormal.pro/images/mantapkali_bwfwjb.jpg">
+        <meta property="og:image" content="https://babygod.site/images/babygod%208.jpeg">
         <meta name="og:locale" content="ID_id">
         <meta name="og:type" content="website">
         <meta name="rating" content="general">
@@ -818,7 +818,7 @@
             <div class="kamu-nanya">
                 <div class="tengah"><a href="#"></a><br>
                     <div><a href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <amp-img height="250" width="250" class="animated tada infinite slower" alt="<?php echo $BRANDS ?>" src="https://diatasnormal.pro/images/mantapkali_bwfwjb.jpg"></amp-img></a></div>
+                    <amp-img height="250" width="250" class="animated tada infinite slower" alt="<?php echo $BRANDS ?>" src="https://babygod.site/images/babygod%208.jpeg"></amp-img></a></div>
                     <div class="kiw-kiw"><a href="https://wajibbasah2.uk/" target="_blank" rel="noopener noreferrer nofollow"><button
                                 class="btn2 animated fadeInLeft slow"><strong>LOGIN</strong>
                                 <div id="container-animation">

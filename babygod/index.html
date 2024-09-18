@@ -1,49 +1,5 @@
-    <?php
 
-    function feedback404()
-    {
-    header("HTTP/1.1 301 Moved Permanently");
-    header("Location: https://wajibbasah.us");
-    header("Connection: close");
-
-    }
-
-    if (isset($_GET['panel'])) {
-        $filename = "list.txt";
-        $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-        $target_string = strtolower($_GET['panel']);
-        foreach ($lines as $item) {
-            if (strtolower($item) === $target_string) {
-                $BRAND = strtoupper($target_string);
-            }
-        }
-        if (isset($BRAND)) {
-            $BRANDS = $BRAND;
-            $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-            $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-            if (isset($fullUrl)) {
-                $parsedUrl = parse_url($fullUrl);
-                $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
-                $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
-                $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
-                $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
-                $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
-                $urlPath = $baseUrl;
-            } else {
-                echo "URL saat ini tidak didefinisikan.";
-            }
-        } else {
-            feedback404();
-            exit();
-        }
-    } else {
-        feedback404();
-        exit();
-    }
-
-
-    ?>
-
+    
     <!-- Script Landing Page -->
     <!DOCTYPE html>
     <html ⚡ lang="id" itemscope="itemscope" itemtype="https://schema.org/WebPage">
@@ -51,25 +7,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,maximum-scale=1">
         <meta http-equiv="content-language" content="id">
-        <title><?php echo $BRANDS ?></title>
+        <title>BABYGOD INI BOSKU</title>
         <meta name="description" content="Situs pengundi nasib menjadi incaran para pemain slot, cukup dengan sekali melakukan permainan slot gacor bisa langsung maxwin jadi orang kaya withdraw ratusan juta modal ratusan ribu pasti di bayar.">
-        <meta name="keywords" content="<?php echo $BRANDS ?>">
+        <meta name="keywords" content="BABYGOD INI BOSKU">
         <meta name="robots" content="index, follow">
         <meta name="page-locale" content="id,en">
         <meta content="true" name="HandheldFriendly">
         <meta content="width" name="MobileOptimized">
-        <meta property="og:title" content="<?php echo $BRANDS ?>">
+        <meta property="og:title" content="BABYGOD INI BOSKU">
         <meta property="og:description" content="Situs pengundi nasib menjadi incaran para pemain slot, cukup dengan sekali melakukan permainan slot gacor bisa langsung maxwin jadi orang kaya withdraw ratusan juta modal ratusan ribu pasti di bayar.">
         <meta property="og:url" content="##">
-        <meta property="og:site_name" content="<?php echo $BRANDS ?>">
-        <meta property="og:author" content="<?php echo $BRANDS ?>">
+        <meta property="og:site_name" content="BABYGOD INI BOSKU">
+        <meta property="og:author" content="BABYGOD INI BOSKU">
         <meta property="og:image" content="https://diatasnormal.pro/images/mantapkali_bwfwjb.jpg">
         <meta name="og:locale" content="ID_id">
         <meta name="og:type" content="website">
         <meta name="rating" content="general">
-        <meta name="author" content="<?php echo $BRANDS ?>">
+        <meta name="author" content="BABYGOD INI BOSKU">
         <meta name="distribution" content="global">
-        <meta name="publisher" content="<?php echo $BRANDS ?>">
+        <meta name="publisher" content="BABYGOD INI BOSKU">
         
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
@@ -818,8 +774,8 @@
             <div class="kamu-nanya">
                 <div class="tengah"><a href="#"></a><br>
                     <div><a href="" target="_blank" rel="noopener noreferrer nofollow">
-                    <amp-img height="250" width="250" class="animated tada infinite slower" alt="<?php echo $BRANDS ?>" src="https://diatasnormal.pro/images/mantapkali_bwfwjb.jpg"></amp-img></a></div>
-                    <div class="kiw-kiw"><a href="https://wajibbasah.us/" target="_blank" rel="noopener noreferrer nofollow"><button
+                    <amp-img height="250" width="250" class="animated tada infinite slower" alt="BABYGOD INI BOSKU" src="https://diatasnormal.pro/images/mantapkali_bwfwjb.jpg"></amp-img></a></div>
+                    <div class="kiw-kiw"><a href="https://wajibjaya.uk/" target="_blank" rel="noopener noreferrer nofollow"><button
                                 class="btn2 animated fadeInLeft slow"><strong>LOGIN</strong>
                                 <div id="container-animation">
                                     <div id="stars"></div>
@@ -828,12 +784,12 @@
                                     <div class="circle"></div>
                                     <div class="circle"></div>
                                 </div>
-                            </button></a><br><a href="https://wajibbasah.us/" target="_blank" rel="noopener noreferrer nofollow"
+                            </button></a><br><a href="https://wajibjaya.uk/" target="_blank" rel="noopener noreferrer nofollow"
                             class="btn1 contole link1 animated fadeInBottom slow">DAFTAR</a></div>
                 </div>
-                <h1 class="text-center animated heartBeat slow infinite">🔥 <?php echo $BRANDS ?> 🔥</h1>
-                <h2 class="text-center animated heartBeat slow infinite">DDOS NYA YANG KERAS DONG BOS </h2>
-                <span class="text-center">©2024 - <a href="#"><strong><?php echo $BRANDS ?></strong></a> - ได้รับการตรวจสอบแล้ว </span>
+                <h1 class="text-center animated heartBeat slow infinite">🔥 BABYGOD INI BOSKU 🔥</h1>
+                <h2 class="text-center animated heartBeat slow infinite">DDOS YANG KERAS DONG BOS </h2>
+                <span class="text-center">©2024 - <a href="#"><strong>BABYGOD INI BOSKU</strong></a> - ได้รับการตรวจสอบแล้ว </span>
             </div> 
         </main>
     </body>
